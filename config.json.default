@@ -1,0 +1,14 @@
+{
+  "app": {
+    "targetUrl": "https://my.apex.server",
+    "targetPath": "/ords/f?p=MYAPP:HOME",
+    "proxiedPaths": [
+      "/i", 
+      "/ords"
+    ],
+    "serverPort": 3000,
+    "sslEnabled": false,
+    "keyFilePath": "localhost.key",
+    "certFilePath": "localhost.crt" 
+  }
+}
