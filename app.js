@@ -3,7 +3,7 @@ const
   proxy = require('http-proxy-middleware'),
   https = require('https'),
   fs = require('fs'),
-  config = require('./config.json')
+  config = require('./config/settings.json')
 ;
 
 var app = express();
